@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Taste Bottle Shop Website
+
+A modern, responsive website for Taste Bottle Shop - a fine wine, premium spirits, and craft beer store located in Dunwoody/Sandy Springs, Georgia.
+
+Rebuilt from archived website content using Next.js 14, TypeScript, and TailwindCSS.
+
+## Features
+
+- ✅ Fully responsive design (mobile, tablet, desktop)
+- ✅ Modern UI with TailwindCSS styling
+- ✅ Customer testimonials section
+- ✅ Product categories showcase
+- ✅ Store location and contact information
+- ✅ Google Maps integration
+- ✅ Social media links (Instagram, Facebook)
+- ✅ SEO optimized with proper metadata
+
+## Tech Stack
+
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type safety
+- **TailwindCSS** - Utility-first CSS framework
+- **Lucide React** - Modern icon library
+- **shadcn/ui patterns** - Beautiful UI components
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ installed
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+Dependencies are already installed. If you need to reinstall:
+
+```bash
+npm install
+```
+
+### Development
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The page auto-updates as you edit files.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build for Production
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+tastebottleshop/
+├── app/
+│   ├── layout.tsx          # Root layout with metadata
+│   ├── page.tsx            # Homepage
+│   └── globals.css         # Global styles
+├── components/
+│   └── ui/
+│       ├── button.tsx      # Button component
+│       └── card.tsx        # Card component
+├── lib/
+│   └── utils.ts            # Utility functions
+└── public/                 # Static assets
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Store Information
 
-## Deploy on Vercel
+**Taste Bottle Shop**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Address:** 1155 Mount Vernon Hwy NE Suite 430, Atlanta, GA 30338
+- **Hours:**
+  - Monday-Saturday: 10am - 10pm
+  - Sunday: 12:30pm - 8pm
+- **Phone:** (678) 691-5854
+- **Email:** drink@tastebottleshop.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+### Deploy on Vercel
+
+The easiest way to deploy is using [Vercel](https://vercel.com/new):
+
+1. Push your code to GitHub
+2. Import your repository on Vercel
+3. Vercel will automatically detect Next.js and configure the build
+4. Your site will be live in minutes!
+
+### Deploy on Netlify
+
+1. Push your code to GitHub
+2. Connect your repository on Netlify
+3. Build command: `npm run build`
+4. Publish directory: `.next`
+
+## License
+
+© 2026 Taste Bottle Shop. All rights reserved.
