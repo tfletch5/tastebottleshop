@@ -31,7 +31,7 @@ import {
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#990000]/70 backdrop-blur-sm text-white py-4 shadow-lg">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#990000]/80 backdrop-blur-sm text-white py-4 shadow-lg">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <Image

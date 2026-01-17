@@ -68,7 +68,7 @@ export function HeroCarousel() {
           <div className="absolute inset-0 bg-black/40" />
 
           <div className="relative h-full flex flex-col items-center justify-center text-center px-4">
-            <div className="max-w-5xl">
+            <div className="max-w-5xl bg-black/65 backdrop-blur-sm p-16 rounded-2xl">
               <p className="text-2xl md:text-3xl font-light text-white/90 mb-2 tracking-wide animate-fade-in uppercase">
                 Taste the Difference
               </p>
