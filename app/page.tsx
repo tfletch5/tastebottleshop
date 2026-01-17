@@ -23,9 +23,6 @@ import {
   ChevronDown,
   Star,
   Quote,
-  Award,
-  Heart,
-  Users,
 } from "lucide-react";
 
 export default function Home() {
@@ -41,9 +38,6 @@ export default function Home() {
               height={50}
               className="object-contain"
             />
-            {/* <h1 className="text-2xl md:text-3xl font-bold">
-              Taste Bottle Shop
-            </h1> */}
           </div>
           <p className="hidden md:block text-red-100">
             Fine Wine. Premium Spirits. Craft Beer.
